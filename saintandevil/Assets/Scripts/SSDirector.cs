@@ -34,5 +34,6 @@ public class SSDirector : System.Object {
 public interface ISceneController
 {
     void LoadResources();
+    void restart();
 
 }
